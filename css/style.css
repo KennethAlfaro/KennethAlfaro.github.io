@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+.img-container{
+    background-image: url("../imgs/desert.jpg");
+    height: 500px;
+    width: 100%;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    object-position: (20%,30%);
+}
+
+.chuck-pic{
+    position: relative;
+    top: 5%;
+    left: 28%;
+    height: 250px;
+    width: 250px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    background-image: url("../imgs/chuck.jpg");
+    background-position: 44%;
+}
+
+
+table{
+    margin: 0 auto;
+}
+h1{
+    font-size: 45px;
+}
+td{
+    padding: 10px;
+}
+button{
+    width: 250px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 30px;
+    position: relative;
+    top: 7%;
+    left: 28%;
+    background-color:azure;
+}
+#fact{
+    margin:0 auto;
+    width:fit-content;
+    margin-top: 30px;
+}
+body{
+    background-color: #F0F8FF;
+}
